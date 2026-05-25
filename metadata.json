@@ -1,0 +1,6 @@
+{
+  "name": "SpiegaLivelli",
+  "description": "Un assistente didattico per la scuola superiore italiana che spiega qualsiasi concetto calibrando linguaggio e profondità sul livello della classe.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
