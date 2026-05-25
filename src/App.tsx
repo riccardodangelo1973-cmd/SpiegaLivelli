@@ -51,11 +51,11 @@ const LEVEL_CONFIGS: LevelConfig[] = [
   },
   {
     id: 'maturita',
-    label: 'Maturità',
+    label: 'Esami di Stato',
     emoticon: '🔴',
     description: "Verso l'esame di stato",
     badge: 'QUINTO ANNO',
-    tag: '[🔴 MATURITÀ]',
+    tag: '[🔴 ESAMI DI STATO]',
     colorName: 'rose',
     accentClass: 'text-rose-700 bg-rose-50 border-rose-200',
     btnActiveClass: 'bg-rose-50 text-rose-900 border-rose-550 shadow-xs ring-1 ring-rose-500/20',

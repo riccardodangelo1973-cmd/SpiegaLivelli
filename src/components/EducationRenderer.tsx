@@ -22,7 +22,7 @@ export default function EducationRenderer({
   let cleanedText = text.trim();
   let detectedTag = '';
 
-  const tagRegex = /^\[(🟢 BIENNIO|🟡 TRIENNIO|🔴 MATURITÀ)\]/i;
+  const tagRegex = /^\[(🟢 BIENNIO|🟡 TRIENNIO|🔴 ESAMI DI STATO)\]/i;
   const match = cleanedText.match(tagRegex);
   if (match) {
     detectedTag = match[0];
@@ -241,7 +241,7 @@ export default function EducationRenderer({
                 }`}
               >
                 <ArrowUp className="h-3.5 w-3.5 animate-bounce" />
-                <span>🚀 Sali di livello (passa a {currentLevel === 'biennio' ? 'Triennio' : 'Maturità'})</span>
+                <span>🚀 Sali di livello (passa a {currentLevel === 'biennio' ? 'Triennio' : 'Esami di Stato'})</span>
               </button>
             )}
           </div>
