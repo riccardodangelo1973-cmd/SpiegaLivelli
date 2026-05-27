@@ -37,11 +37,11 @@ const LEVEL_CONFIGS: LevelConfig[] = [
   },
   {
     id: 'triennio',
-    label: 'Triennio',
+    label: 'Terzo Anno',
     emoticon: '🟡',
     description: 'Ha già le basi della materia',
     badge: '16-18 ANNI',
-    tag: '[🟡 TRIENNIO]',
+    tag: '[🟡 TERZO ANNO]',
     colorName: 'amber',
     accentClass: 'text-amber-700 bg-amber-50 border-amber-200',
     btnActiveClass: 'bg-amber-50 text-amber-900 border-amber-550 shadow-xs ring-1 ring-amber-500/20',
